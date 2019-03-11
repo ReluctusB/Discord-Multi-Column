@@ -1,0 +1,42 @@
+.wrapper-1Rf91z > .scrollerWrap-2lJEkd, .wrapper-1Rf91z, .wrapper-1Rf91z > .scroller-2FKFPG {
+    width: 180px;
+}
+
+.container-2td-dC, .container-1ETFDs, .wrapper-2lTRaf {
+    margin-right: 0;
+}
+
+.wrapper-1Rf91z .scroller-2FKFPG {
+    padding-left: 3px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-auto-rows: minmax(min-content, max-content);
+    grid-column-gap: 1px;
+}
+
+.container-2td-dC::before {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.guildSeparator-3s64Iy {
+    grid-column: span 3;
+    width: 100%;
+}
+
+.friendsOnline-2JkivW, .downloadAppButton-3FZHkU {
+    grid-column: span 3;
+    margin-left: 0;
+}
+
+.container-1ETFDs, .container-1aNBdK {
+    grid-column: span 3;
+}
+
+.selected-nT-gM3::before {
+    visibility: hidden;
+}
