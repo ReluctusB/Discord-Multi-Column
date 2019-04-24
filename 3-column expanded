@@ -1,5 +1,5 @@
 .wrapper-1Rf91z > .scrollerWrap-2lJEkd, .wrapper-1Rf91z, .wrapper-1Rf91z > .scroller-2FKFPG {
-    width: 180px;
+    width: 220px;
 }
 
 .container-2td-dC, .container-1ETFDs, .wrapper-2lTRaf {
@@ -15,28 +15,37 @@
     grid-column-gap: 1px;
 }
 
-.container-2td-dC::before {
+.pill-31IEus > span {
     margin: 0;
     position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1000;
+    top: 4px;
+    left: 5px;
+    z-index: -1000000;
+	border-radius: 4px;
+	height: 8px !important;
 }
 
-.guildSeparator-3s64Iy {
+.pill-2uzAFe > span, .pill-3YxEhL > span {
+	display: none;
+}
+
+.pill-31IEus {
+	overflow: visible;
+}
+
+.scroller-2TZvBN .listItem-2P_4kh:first-child {
     grid-column: span 3;
     width: 100%;
 }
 
-.friendsOnline-2JkivW, .downloadAppButton-3FZHkU {
-    grid-column: span 3;
-    margin-left: 0;
-}
-
-.container-1ETFDs, .container-1aNBdK {
+.scroller-2TZvBN .listItem-2P_4kh:nth-child(2) {
     grid-column: span 3;
 }
 
-.selected-nT-gM3::before {
-    visibility: hidden;
+.guildSeparator-3s64Iy {
+	display: none;
+}
+
+.scroller-2TZvBN .listItem-2P_4kh:nth-child(2) >  .guildSeparator-3s64Iy {
+    display: block;
 }
