@@ -49,3 +49,7 @@
 .scroller-2TZvBN .listItem-2P_4kh:nth-child(2) >  .guildSeparator-3s64Iy {
     display: block;
 }
+
+.base-3dtUhz {
+	left: 125px;
+}
